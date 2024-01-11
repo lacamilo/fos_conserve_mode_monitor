@@ -85,3 +85,4 @@ if __name__ == '__main__':
 #        splitting fg_logger functionality to a separated module.
 #        adding --port parameter to specify an ssh port other than 22
 #        adding option to save and cache password file
+#        adding version control on github
