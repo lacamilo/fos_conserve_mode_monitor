@@ -2,7 +2,7 @@
 
 # compile info: pyinstaller --icon=performance.ico --clean -Fn fos_conserve_v0.3.exe main.py --upx-dir "C:\Program Files\UPX"
 # https://github.com/upx/upx/releases/tag/v4.2.2
-# https://mantis.fortinet.com/bug_view_page.php?bug_id=0898404
+# bug_id=0898404
 
 import argparse
 import getpass
