@@ -1,6 +1,7 @@
 <p align="center">Conserve mode monitor tool</p>
 
-This is an internal tool still under development that can be used for now as required, however it's not official or publically published.<br>
+This is personal project and it has no relation with Fortinet. 
+Use it at your own risk. This tool still under development and testing
 
 The conserve_mode_monitor intends to provide a seamless way to collect in depth debug output when the memory is under presure. 
 It's a common mistake to collect these output when the conserve mode is gone and after it has happened in the past. The output will only reveal a normal memory consumption. 
