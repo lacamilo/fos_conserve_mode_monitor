@@ -31,3 +31,15 @@ diag wad stats worker.sysmem<br>
 diag sys process pstack {pid}<br>
 fnsysctl du /dev/shm<br>
 diag wad memory overused<br>
+
+------------ High memory found general ------------<br>
+get hardware memory
+get system performance status
+diag hardware sysinfo slab
+diag sys mpstat 5 1
+diag sys top-fd 20
+diag sys top-sockmem 10
+fnsysctl cat /proc/version
+fnsysctl cat /proc/vmstat
+fnsysctl cat /proc/vmallocinfo
+fnsysctl du /dev/shm

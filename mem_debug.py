@@ -80,7 +80,7 @@ class FortigateSSHClient:
         self.logger.info("Collecting: diag sys mpstat 5 1 - Wait 5 sec please...")
         self.send_command('diag sys mpstat 5 1', show=True)
         self.send_command('diag sys top-fd 20', show=True)
-        self.send_command('diagnose sys top-sockmem 10', show=True)
+        self.send_command('diag sys top-sockmem 10', show=True)
         self.send_command('fnsysctl cat /proc/version', show=True)
         self.send_command('fnsysctl cat /proc/vmstat', show=True)
         self.send_command('fnsysctl cat /proc/vmallocinfo', show=True)
