@@ -6,9 +6,7 @@
 
 import argparse
 import getpass
-
 import paramiko
-
 import mem_debug
 import password_manager
 
@@ -19,8 +17,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog="fos_conserve.exe",
         description='Fortigate Conserve mode monitor and script collector - lcamilo@fortinet.com',
-        usage="fos_conserve.exe --host --user {-p -l -c -t -p -k}",
-        epilog="Example : fos_conserve.exe --host 172.16.45.1 --user admin"
+        #usage="fos_conserve.exe --host --user --save 1 -p -l -c -t -p -k",
+        epilog="Example : fos_conserve.exe --host 172.16.45.1 --user admin --save 1",
+        formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument("--host", required=True, help='Fortigate hostname or IP address')
     parser.add_argument("--port", required=False, default=22, help='SSH port')
