@@ -33,13 +33,13 @@ fnsysctl du /dev/shm<br>
 diag wad memory overused<br>
 
 ------------ High memory found general ------------<br>
-get hardware memory
-get system performance status
-diag hardware sysinfo slab
-diag sys mpstat 5 1
-diag sys top-fd 20
-diag sys top-sockmem 10
-fnsysctl cat /proc/version
-fnsysctl cat /proc/vmstat
-fnsysctl cat /proc/vmallocinfo
-fnsysctl du /dev/shm
+get hardware memory<br>
+get system performance status<br>
+diag hardware sysinfo slab<br>
+diag sys mpstat 5 1<br>
+diag sys top-fd 20<br>
+diag sys top-sockmem 10<br>
+fnsysctl cat /proc/version<br>
+fnsysctl cat /proc/vmstat<br>
+fnsysctl cat /proc/vmallocinfo<br>
+fnsysctl du /dev/shm<br>
